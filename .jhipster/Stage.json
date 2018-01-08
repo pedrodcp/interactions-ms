@@ -1,0 +1,29 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "task",
+            "otherEntityName": "task",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "stage"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180108112418",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "stage",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "interactions",
+    "searchEngine": "elasticsearch"
+}

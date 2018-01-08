@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "stage",
+            "otherEntityName": "stage",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "title"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "action",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "deadline",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "user",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180108112555",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "task",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "interactions",
+    "searchEngine": "elasticsearch"
+}
